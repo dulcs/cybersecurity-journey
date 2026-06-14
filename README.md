@@ -3,7 +3,7 @@
 ## 🎯 Estado Actual y Objetivos
 *   🥇 **Último Logro:** Certificación de Ethical Hacker - Cisco Networking Academy.
 *   🚀 **Próxima Meta:** Dominar el OWASP Top 10 a través de PortSwigger Web Security Academy.
-*   
+  
 ## 📂 Estructura del Repositorio
 *   **`01-Web-Security/`**: Apuntes detallados de vulnerabilidades web (SQLi, LFI, Command Injection) y resolución de laboratorios.
 *   **`02-CTFs-Writeups/`**: Soluciones paso a paso (Write-ups) de máquinas y retos de Capture The Flag.
