@@ -1,14 +1,17 @@
-¡Hola! Bienvenido a mi centro de laboratorios y documentación técnica. Aquí registro de manera consistente mi transición hacia el mundo de la ciberseguridad ofensiva, el análisis de vulnerabilidades y la seguridad de aplicaciones.
+# 🛡️ My Cybersecurity Journey
 
-## 🎯 Estado Actual y Objetivos
-*   🥇 **Último Logro:** Certificación de Ethical Hacker - Cisco Networking Academy.
-*   🚀 **Próxima Meta:** Dominar el OWASP Top 10 a través de PortSwigger Web Security Academy.
-  
-## 📂 Estructura del Repositorio
-*   **`01-Web-Security/`**: Apuntes detallados de vulnerabilidades web (SQLi, LFI, Command Injection) y resolución de laboratorios.
-*   **`02-CTFs-Writeups/`**: Soluciones paso a paso (Write-ups) de máquinas y retos de Capture The Flag.
-*   **`03-Scripts-Tools/`**: Pequeñas automatizaciones y scripts propios en Bash / Python.
-*   **`04-Cheatsheets/`**: Hojas de trucos rápidos de comandos (Linux, herramientas de escaneo y Wireshark).
+Welcome to my central command for laboratory write-ups and technical documentation. This repository serves as a consistent, transparent record of my career transition into offensive security, vulnerability assessment, and application security.
+
+## 🎯 Current Status & Objectives
+*   🥇 **Latest Achievement:** Completed a comprehensive ethical hacking course and earned a professional certification insignia.
+*   🚀 **Next Goal:** Master the OWASP Top 10 via the PortSwigger Web Security Academy.
+*   🕒 **Study Routine:** Dedicated weekly blocks for deep technical analysis, hands-on labs, and documentation.
+
+## 📂 Repository Structure
+*   **`01-Web-Security/`**: In-depth analysis of web vulnerabilities (SQLi, LFI, Command Injection) and step-by-step lab solutions.
+*   **`02-CTFs-Writeups/`**: Detailed walk-throughs (write-ups) for Capture The Flag machines and technical challenges.
+*   **`03-Scripts-Tools/`**: Custom automation tools and scripts developed in Bash and Python.
+*   **`04-Cheatsheets/`**: Quick-reference command sheets for Linux environments, network scanning tools, and Wireshark.
 
 ---
-*«La persistencia y el entendimiento de la lógica profunda de los sistemas son las mejores herramientas de un pentester.»*
+*"Persistence and mastering the underlying logical mechanisms of a system are a penetration tester's greatest assets."*
