@@ -29,14 +29,25 @@ When injecting `' OR 1=1--`, the query breaks down logically as follows:
     
 
 ## 🧪 Completed Laboratories (PortSwigger)
+### Lab 1: SQL Injection Vulnerability in WHERE Clause Allowing Retrieval of Hidden Data
 
-### Lab 1: [Lab Name Go Here]
+* **Objective:** Perform a SQL injection attack that causes the application to display one or more unreleased products.
+* 
+* **Methodology & Payloads:**
+    1. Navigated to the main application and selected a specific category filter (in this case, `Gifts`).
+    2. Appended the payload `' OR 1=1--` directly to the URL parameter in the browser's address bar:
+       ```sql
+       /filter?category=Gifts' OR 1=1--
+       ```
+    3. The database evaluated the conditional statement as a tautology (`OR 1=1`), forcing the query to return every row in the table and successfully rendering the hidden items on the screen.
 
-- **Objective:**
-    
-- **Methodology & Payloads:**
+	#### 🧠 Technical Insight: Input Context & Data Types 
+	* **Integer Parameters (`productId=10`):** Often implement strict data-type validation at the application layer. Injecting strings or quotes triggers an immediate error before the input can interact with the database engine. 
+	* **String Parameters (`category=Gifts`):** Highly vulnerable to direct string concatenation if unsanitized. This context allows the single quote (`'`) to successfully break the query structure and execute the malicious payload logic.
 
-*   **Evidence / Flag:** 
+* **Evidence / Flag:**
+    ![[Pasted image 20260618020315.png]]
+
 
 ## 🛡️ Defensive Mitigations (Secure Coding)
 *   **Defensive Standard:** Implement **Parameterized Queries (Prepared Statements)**. This ensures the database engine treats user input strictly as a literal value, never as executable code logic.
