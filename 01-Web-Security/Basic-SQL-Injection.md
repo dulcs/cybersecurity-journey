@@ -46,6 +46,7 @@ When injecting `' OR 1=1--`, the query breaks down logically as follows:
 	* **String Parameters (`category=Gifts`):** Highly vulnerable to direct string concatenation if unsanitized. This context allows the single quote (`'`) to successfully break the query structure and execute the malicious payload logic.
 
 * **Evidence / Flag:**
-    ![Lab 1 Solved](lab1-flag.png)
+    ![Lab 1 Solved](images/lab1-flag.png)
+    
 ## 🛡️ Defensive Mitigations (Secure Coding)
 *   **Defensive Standard:** Implement **Parameterized Queries (Prepared Statements)**. This ensures the database engine treats user input strictly as a literal value, never as executable code logic.
