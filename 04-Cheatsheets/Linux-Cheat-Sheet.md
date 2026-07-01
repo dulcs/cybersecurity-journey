@@ -1,4 +1,4 @@
-# 🐧 Ultimate Linux Cheat Sheet (CTF & Bash Master Edition)
+# 🐧  Ultimate Linux Cheat Sheet (CTF & Bash Master Edition)
 
 ## 📂 1. Navigation & System Exploration
 
