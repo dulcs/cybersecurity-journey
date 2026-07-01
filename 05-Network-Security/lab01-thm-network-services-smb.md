@@ -143,8 +143,8 @@ The enumeration tool successfully mapped the following directory entry points:
 
 #### 1. Key Weaponization & SSH Tunneling
 * **Objective:** Modify the access controls of the stolen private key to satisfy local SSH compliance and initialize connection.
-	![](Pasted%20image%2020260629203258.png)
-	![](Pasted%20image%2020260629205125.png)
+	![](attachments/lab01-chmod.png)
+	![](attachments/lab01-connectSSH.png)
 
 * **Execution Walkthrough:**
   1. Automated safety block bypass via permissions tightening: `chmod 600 id_rsa`.
